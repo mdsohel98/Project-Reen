@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clr {
+    clear: both;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* =========================
+    Header menu part Start
+============================== */
+#header-menu-part {
+    padding: 35px 0px;
+    overflow: hidden;
+}
+
+#header-menu-part .sub-container {}
+
+#header-menu-part .logo-item {
+    width: 20%;
+    float: left;
+}
+
+#header-menu-part .menu-item {
+    width: 80%;
+    float: left;
+}
+
+#header-menu-part .menu-item ul {
+    text-align: right;
+}
+
+#header-menu-part .menu-item ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+#header-menu-part .menu-item ul li a {
+    display: inline-block;
+    font-family: 'SourceSansPro', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #506a85;
+    line-height: 2.5;
+    transition: .4s;
+}
+
+#header-menu-part .menu-item ul li a:hover {
+    color: #00bc9c;
+}
+
+/* =========================
+    Header menu part End
+============================== */
+/* =========================
+   Banner part Start
+============================== */
+#banner-par {}
+
+#banner-part .banner {
+    background: url(../image/banner.png) no-repeat center;
+    background-size: cover;
+}
+
+#banner-part .banner .ovarlay {
+    width: 100%;
+    /* background: rgba(0, 0, 0, 0, .3); */
+    padding: 180px 0;
+}
+
+#banner-part .banner .ovarlay .text {
+    text-align: center;
+}
+
+#banner-part .banner .ovarlay .text h1 {
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 78px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 6px;
+}
+
+#banner-part .banner .ovarlay .text p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+    width: 910px;
+    margin: 0 auto;
+    color: #a3b1bf;
+}
+
+#banner-part .banner .ovarlay .text .btn {
+    margin-top: 60px;
+}
+
+#banner-part .banner .ovarlay .text a {
+    background: #00bc9c;
+    padding: 25px 70px;
+    border-radius: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    transition: .4s;
+}
+
+#banner-part .banner .ovarlay .text a:hover {
+    border: 1px solid white;
+    color: #506a85;
+}
+
+/* =========================
+    Banner part End
+============================== */
+/* =========================
+    Beautiful part Start
+============================== */
+
+/* =========================
+        Beautiful part Start
+    ============================== */
+#beautiful-part {
+    padding: 130px 0px;
+    background: #ffffff;
+}
+
+#beautiful-part .all-block {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#beautiful-part .text-area {
+    text-align: center;
+}
+
+#beautiful-part .text-area h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    color: #506a85;
+    margin-bottom: 30px;
+}
+
+#beautiful-part .text-area p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #73879c;
+    width: 770px;
+    margin: 0 auto;
+    line-height: 35px;
+}
+
+#beautiful-part .block {
+    width: 350px;
+}
+
+#beautiful-part .block .icon {
+    width: 50px;
+    float: left;
+}
+
+#beautiful-part .block .icon i {
+    font-size: 50px;
+    font-weight: bold;
+    color: #00bc9c;
+    margin-top: 7px;
+}
+
+#beautiful-part .block .text {
+    width: 267px;
+    float: right;
+}
+
+#beautiful-part .block .text h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: #73879c;
+    margin-bottom: 17px;
+}
+
+#beautiful-part .block .text p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #73879c;
+    line-height: 27px;
+}
+
+/* =========================
+    Beautiful part End
+============================== */
+/* =========================
+    Check out part Start
+============================== */
+#Checkout-part {
+    background-color: #f2f5f7;
+    padding: 130px 0px;
+}
+
+#Checkout-part .text-area {
+    text-align: center;
+}
+
+#Checkout-part .text-area h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    color: #506a85;
+    margin-bottom: 30px;
+}
+
+#Checkout-part .text-area p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #73879c;
+}
+
+#Checkout-part .Cphoto {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+#Checkout-part .photo-area {
+    width: 49%;
+    text-align: center;
+    border: 2px solid #e6e9ed;
+    padding-bottom: 30px;
+    background: #ffffff;
+}
+
+#Checkout-part .photo-area h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #506a85;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#Checkout-part .photo-area p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #73879c
+}
+
+#Checkout-part .photo-area img {
+    width: 100%;
+    display: block;
+}
+
+#Checkout-part .check-img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+#Checkout-part .check-img .pic {
+    width: 23.5%;
+}
+
+#Checkout-part .check-img .pic img {
+    width: 100%;
+    display: block;
+}
+
+/* =========================
+    Check out part End
+============================== */
+/* =========================
+    Coment part Start
+============================== */
+#coment-part{
+    padding: 120px;
+}
+#coment-part .coment-text{
+    text-align: center;
+}
+#coment-part .coment-text h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    color: #506a85;
+    margin-bottom: 30px;
+}
+#coment-part .coment-text p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: #73879c;
+    width: 750px;
+    margin: 0 auto;
+    line-height: 35px;
+}
+#coment-part .coment-text a{
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #00bc9c;
+    padding: 20px 30px;
+    border-radius: 5px;
+    transition: .4s;
+}
+#coment-part .coment-text .btn{
+    margin-top: 45px;
+}
+#coment-part .coment-text a:hover{
+    color:black;
+    background: #118d78;
+    transform:scale(1.1);
+}
+/* =========================
+    Coment part End
+============================== */
+/* =========================
+    Fotter part Start
+============================== */
+#fotter-part{
+    padding: 70px 0px;
+   background: #2f4052;
+}
+#fotter-part .fcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+#fotter-part .fcontainer .logo{
+    width: 24%;
+}
+#fotter-part .fcontainer h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+#fotter-part .fcontainer .logo p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    color: #a3b1bf;
+    margin-top: 22px;
+    line-height: 22px;
+}
+#fotter-part .fcontainer .logo .btn{
+    margin-top: 17px;
+}
+#fotter-part .fcontainer .logo .btn a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:15px;
+    font-weight: 600;
+    color: #a3b1bf;
+    display: inline-block;
+    transition: .4s;
+}
+#fotter-part .fcontainer .logo .btn a:hover{
+    color: blueviolet;
+}
+#fotter-part .fcontainer .logo .btn i{
+    margin-left: 10px;
+}
+#fotter-part .fcontainer .latest{
+    width: 22.5%;
+}
+#fotter-part .fcontainer .latest .pic{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#fotter-part .fcontainer .latest .pic img{
+    margin-bottom: 5px;
+}
+#fotter-part .fcontainer .getin{
+    width: 24%;
+    margin-left: 25px;
+}
+#fotter-part .fcontainer .getin p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    color: #a3b1bf;
+    margin-top: -6px;
+    line-height: 22px;
+    display: inline-block;
+}
+#fotter-part .fcontainer .getin ul{
+    margin-top: 20px;
+}
+#fotter-part .fcontainer .getin i{
+   display: inline-block;
+   padding-right: 10px;
+   color: white;
+   line-height: 27px;
+   cursor: pointer;
+}
+#fotter-part .fcontainer .getin span{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    color: #a3b1bf;
+    cursor: pointer;
+    transition: .4s;
+}
+#fotter-part .fcontainer .getin span:hover{
+    color:cadetblue;
+}
+#fotter-part .fcontainer .free{
+    width: 24%;
+}
+#fotter-part .fcontainer .free p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    color: #a3b1bf;
+    margin-top: -6px;
+    line-height: 22px;
+    display: inline-block;
+}
+#fotter-part .fcontainer .free .input{
+    padding: 8px 9px;
+    background:#4e5c6c;
+    border-radius: 3px;
+    width: 290px;
+    margin-top: 25px;
+}
+#fotter-part .fcontainer .free .input input{  
+font-size: 14px;   
+color: #828e99;  
+border: 1px;  
+background: #4e5c6c;  
+padding: 5px 0px;
+}
+#fotter-part .fcontainer .free #btn{
+    background: #00bc9c;
+    padding: 7px 12px;
+    border-radius: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* =========================
+    Fotter part End
+============================== */
+/* =========================
+    Fotter bottom part Start
+============================== */
+#fotter-bottom-part{
+    background: #283645;
+    padding: 35px 0px;
+}
+#fotter-bottom-part .left{
+    width: 50%;
+    float: left;
+}
+#fotter-bottom-part .left p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #707e8c;
+
+}
+#fotter-bottom-part .right{
+    text-align: right;
+    width: 50%;
+    float: left;
+}
+#fotter-bottom-part .right a{
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #707e8c;
+    border-right: 1px solid #707e8c;
+    padding: 0 15px;
+    transition: .4s;
+}
+#fotter-bottom-part .right a:hover{
+    color:white;
+}
+/* =========================
+    Fotter bottom part End
+============================== */
